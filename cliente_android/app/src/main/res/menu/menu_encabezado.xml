@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/img_configuracion"
+        android:icon="@drawable/configicon24x24"
+        android:title="@string/img_configuracion_String"
+        app:showAsAction="always" />
+</menu>

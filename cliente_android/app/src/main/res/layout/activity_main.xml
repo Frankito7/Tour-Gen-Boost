@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo_background"
+        android:clickable="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_redwifi_conectada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/fondo_boton_rojo"
+                android:fontFamily="sans-serif-black"
+                android:padding="20sp"
+                android:text="@string/redwificonectada_String"
+                android:textColor="@color/letra_blanca"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/txt_ssidwifi"
+                android:layout_width="200dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="70dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="104dp"
+                android:layout_marginRight="104dp"
+                android:background="@color/fondo_boton_amarillo"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal"
+                android:text="@string/redWifi_String"
+                android:textColor="@color/letra_negra"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:translationX="40dp" />
+
+
+            <ImageView
+                android:id="@+id/img_logowifi"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="12dp"
+                android:contentDescription="@string/imagen_wifi"
+                android:translationX="30dp"
+                android:translationY="-60dp"
+                app:layout_constraintEnd_toStartOf="@+id/txt_ssidwifi"
+                app:layout_constraintHorizontal_bias="0.617"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_redwifi_conectada"
+                app:srcCompat="@drawable/wifi" />
+
+            <TextView
+                android:id="@+id/txt_recorridos_disponibles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@color/fondo_boton_rojo"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_horizontal"
+                android:padding="20dp"
+                android:text="@string/recorridos_disponibles_String"
+                android:textColor="@color/letra_blanca"
+                android:textSize="30sp"
+                android:translationX="22dp" />
+
+            <Button
+                android:id="@+id/btn_recorrido_IMPA"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/fondo_boton_gris"
+                android:drawableStart="@drawable/impaicon"
+                android:drawableLeft="@drawable/impaicon"
+                android:onClick="Boton_Recorrido"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/boton_recorrido_String"
+                android:textColor="@color/letra_negra"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/fondo_boton_gris" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="@color/fondo_boton_gris" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

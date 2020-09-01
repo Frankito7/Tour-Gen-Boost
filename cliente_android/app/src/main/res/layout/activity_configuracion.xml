@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_background"
+    tools:context=".activity_configuracion">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="703dp"
+        android:layout_marginTop="36dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+        <Switch
+            android:id="@+id/switch_modo_oscuro"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/fondo_boton_gris"
+            android:drawableStart="@drawable/darkmode_icon"
+            android:drawableLeft="@drawable/darkmode_icon"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:onClick="switch_modo_oscuro"
+            android:padding="10dp"
+            android:text="@string/txt_modo_oscuro"
+            android:textColor="@color/letra_negra"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <Button
+            android:id="@+id/btn_acercade"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/fondo_boton_gris"
+            android:drawableStart="@drawable/info_icon"
+            android:drawableLeft="@drawable/info_icon"
+            android:drawablePadding="-40dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center|center_vertical"
+            android:onClick="btn_acerca_de"
+            android:padding="10dp"
+            android:text="@string/txt_acerca_de"
+            android:textAllCaps="false"
+            android:textColor="@color/letra_negra"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_acerca_de"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/fondo_boton_gris"
+                android:padding="10dp"
+                android:text="@string/txt_acerca_de_String"
+                android:textColor="@color/letra_negra"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="invisible" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

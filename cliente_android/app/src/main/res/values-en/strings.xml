@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tour Gen-Boost</string>
+    <string name="img_configuracion_String">Settings</string>
+    <string name="redwificonectada_String">Wi-Fi Network connected</string>
+    <string name="redWifi_String">Wi-Fi</string>
+    <string name="imagen_wifi">Wi-Fi Logo</string>
+    <string name="recorridos_disponibles_String">Available tours:</string>
+    <string name="boton_recorrido_String">Technical School N°7 IMPA\n\n\n Meet the technical school N°7 and learn about it</string>
+    <string name="boton_atras_pantalla_configuracion">Back</string>
+    <string name="boton_atras_pantalla_pre_recorrido">Back</string>
+    <string name="txt_idioma">Language</string>
+    <string name="txt_modo_oscuro">Dark Mode</string>
+    <string name="txt_acerca_de">About us</string>
+    <string name="txt_recorrido_seleccionado">Tour selected</string>
+    <string name="txt_acerca_de_String">Welcome to Tour Gen-Boost. \nTour Gen-Boost was thought as the final project in order to obtain our technician title, it was developed
+by Technical School N°7 students (IMPA)
+\nOur goal was to facilitate and give freedom to any person interested in touring
+any facility, giving a technological guide and brief explanations for his interest.\n
+Involved students:\n
+        Franco Smuraglia \n Enzo Cerochi \n Diego Torres \n Joaquín Figueroa \n Lautaro marchegiani</string>
+    <string name="txt_instrucciones">Follow the instructions: \n\n Get the glasses \n Put the cell phone into the glasses \n Get
+    a remote control \n Connect the remote control to the \n application by Bluetooth \n Go to the starting point of the tour \n Put the glasses on \n Start the tour</string>
+    <string name="btn_Empezar">Start</string>
+    <string name="img_impa">Impa</string>
+    <string name="titulo_boton">Technical School N°7 IMPA</string>
+    <string name="recorrido_seleccionado">You selected the tour: \n\n Technical School N°7 IMPA</string>
+    <string name="img_camara">Camera</string>
+    <string name="zonas_restantes">Remaining areas to visit: </string>
+    <string name="porcentaje">Percentage</string>
+    <string name="txt_zona_actual">Current zone: </string>
+    <string name="Lugares_restantes">Remaining places: </string>
+    <string name="txt_bluetooth_conectado">Bluetooth Verification</string>
+    <string name="txt_bluetooth_hc06">Module connection status</string>
+    <string name="bluetooth_boton">Activate Bluetooth</string>
+    <string name="bluetooth_dispositivos_boton">See Bluetooth Devices</string>
+    <string name="titulo_bluetooth">Available devices:</string>
+</resources>
