@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD32F2F</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FFEB3B</color>
+
+    <color name="fondo_boton_rojo">#D32F2F</color>
+    <color name="titulo">#FFFFEB3B</color>
+    <color name="fondo_boton_amarillo">#FFEB3B</color>
+    <color name="fondo_background">#5B5C5858</color>
+    <color name="letra_negra">#FF111111</color>
+    <color name="letra_blanca">#FFFFFF</color>
+    <color name="fondo_boton_gris">#3C434242</color>
+    <color name="action_bar">#FFD32F2F</color>
+
+
+</resources>

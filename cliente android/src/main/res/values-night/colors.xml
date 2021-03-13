@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9E9E9E</color>
+    <color name="colorPrimaryDark">#616161</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="fondo_boton_rojo">#CDBB10</color>
+    <color name="titulo">#FFFAFA</color>
+    <color name="fondo_boton_amarillo">#931923</color>
+    <color name="fondo_background">#C1000000</color>
+    <color name="letra_negra">#FFFAFA</color>
+    <color name="letra_blanca">#020202</color>
+    <color name="fondo_boton_gris">#66838383</color>
+    <color name="action_bar">#6A6464</color>
+
+</resources>
